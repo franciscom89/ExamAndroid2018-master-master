@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView21"
+            app:layout_constraintEnd_toStartOf="@+id/tv_nombre"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="20dp"
+            android:text="NOMBRE" />
+
+        <TextView
+            android:id="@+id/textView22"
+            app:layout_constraintEnd_toStartOf="@+id/textView27"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="44dp"
+            android:text="DIRECCION" />
+
+        <TextView
+            android:id="@+id/textView23"
+            app:layout_constraintEnd_toStartOf="@+id/textView28"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="44dp"
+            android:text="TELEFONO" />
+
+        <TextView
+            android:id="@+id/textView24"
+            app:layout_constraintEnd_toStartOf="@+id/textView29"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="44dp"
+            android:text="CORREO" />
+
+        <TextView
+            android:id="@+id/textView25"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView30"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            app:layout_constraintVertical_bias="0.037"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="44dp"
+            android:text="SITIO WEB" />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="222dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombre"
+            android:layout_width="222dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="44dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            android:layout_width="220dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="44dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            android:layout_width="222dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="44dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29"
+            app:layout_constraintVertical_bias="0.223"
+            android:layout_width="222dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/button2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="UBICAR" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

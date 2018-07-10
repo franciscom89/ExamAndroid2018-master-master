@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="112dp"
+        android:text="NOMBRE"
+       />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="28dp"
+        android:text="DIRECCION"
+         />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="28dp"
+        android:text="TELÉFONO"
+         />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="CORREO"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="68dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="SITIO WEB"
+        />
+
+    <TextView
+        android:id="@+id/tw_nombre"
+        android:layout_width="234dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="112dp"
+        android:text="TextView"
+ />
+
+    <TextView
+        android:id="@+id/tw_direccion"
+        android:layout_width="234dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+   />
+
+    <TextView
+        android:id="@+id/tw_telefono"
+        android:layout_width="234dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+ />
+
+    <TextView
+        android:id="@+id/tw_correo"
+        android:layout_width="234dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+ />
+
+    <TextView
+        android:id="@+id/tw_sitioweb"
+        android:layout_width="234dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="144dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+         />
+
+    <TextView
+        android:id="@+id/txt_infobasica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+     />
+
+    <TextView
+        android:id="@+id/txt_infodetallada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+       />
+
+
+</FrameLayout>
